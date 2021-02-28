@@ -1,5 +1,6 @@
-<h1><img src="images/PacMan1.png" alt="PacMan Project" width="50%"></h1>
+<h1><img src="images/PM.jpg" alt="PacMan Project" width="50%"></h1>
 
+# PacMan Project
 > MIT xPRO - Week 4
 
 This project was part of the course work required in the MIT xPRO Full-Stack development course taken.
