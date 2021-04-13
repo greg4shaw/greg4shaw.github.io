@@ -1,5 +1,3 @@
-<h1><img alt="Real Time Bus Tracker Project" width="50%"></h1>
-
 # Real Time Bus Tracker Project
 > MIT xPRO - Week 9
 
