@@ -5,19 +5,19 @@ mapboxgl.accessToken = 'pk.eyJ1Ijoic29mdGV4cGVyaW1lbnQiLCJhIjoiY2tjMngyZm9rMDFva
 var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/dark-v10',
-    center: [-71.104081, 42.365554],
-    zoom: 12
+    center: [-71.083002, 42.348995],
+    zoom: 13
   });
 
 // Set marker
-  var marker = new mapboxgl.Marker()
+  var marker = new mapboxgl.Marker();
 
 // Create the function that will retrieve and use the data
 async function run(){
     // get bus data    
 	const locations = await getBusLocations();
   // Create an array for the coordinates
-  var coords = []
+  var coords = [];
   coords.push([locations[0].attributes.longitude, locations[0].attributes.latitude]);  
   // Update marker
   marker.setLngLat(coords[0]);
