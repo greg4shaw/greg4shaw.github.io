@@ -1,0 +1,86 @@
+
+h1 {
+	font-size: 37px;
+    font-weight: bold;
+	color: #333;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto 1fr auto;
+    gap: 5px;   
+    height: 90vh;
+}
+
+header, footer{
+    grid-column: 1 / 4;
+}
+header, aside, article, footer{
+    border-style: solid;
+    font-size: 2em;
+    background: silver;
+}
+
+a:hover {
+    background-color: yellow;
+  }
+
+a:visited {
+    color: green;
+  }
+
+a:hover {
+    color: red;
+    font-size: 150%;
+  }
+
+/*NEW */
+
+.personal-info{
+    float: left;
+    margin-top: 30px;
+    width: 310px;
+    min-height: 230px;
+    margin-left: 10px;
+    background: url(GTMS2.jpg) no-repeat left top;
+    padding: 20px 0 19px 20px;
+}
+
+.personal-info li{
+    line-height: 12px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    float: left;
+    width: 293px;
+}
+
+.personal-info li label{
+    color: rgb(228, 32, 32);
+    float: left;
+    padding: 4px 7px;
+    font-weight: 550;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.personal-info li span{
+    float: right;
+    width: 220px;
+    padding-top: 4px;
+    font-weight: 400;
+    color: rgb(71, 233, 133);
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+}
+
+.word-wrap {
+	word-wrap: break-word;
+	-ms-word-break: break-all;
+	word-break: break-all;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	hyphens: auto;
+}
