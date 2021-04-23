@@ -1,6 +1,6 @@
 
 h1 {
-	font-size: 37px;
+	font-size: 25px;
     font-weight: bold;
 	color: #333;
 }
@@ -8,18 +8,25 @@ h1 {
 .grid{
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-template-rows: auto 1fr auto;
+    grid-template-rows: auto auto auto;
     gap: 5px;   
     height: 90vh;
-}
+    padding: 5px;
+
+}   
 
 header, footer{
     grid-column: 1 / 4;
+    border-style: solid;
+    padding: 5px;
+    text-align: center;
+    font-size: 2em;
 }
-header, aside, article, footer{
+aside, article{
     border-style: solid;
     font-size: 2em;
     background: silver;
+    padding: 20px;
 }
 
 a:hover {
@@ -35,7 +42,47 @@ a:hover {
     font-size: 150%;
   }
 
-/*NEW */
+  /*IMAGE RESIZE */
+
+  img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  /*NAV BAR CHANGES */
+
+
+.navbar-brand {
+    font-size: 20px;
+    /*font-family: Verdana, Geneva, Tahoma, sans-serif;*/
+    font-weight: bold;
+  }
+
+
+.nav-link {
+    font-size: 20px;
+  }
+
+
+  /*VIDEO STYLING */
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+  /*NEW */
 
 .personal-info{
     float: left;
