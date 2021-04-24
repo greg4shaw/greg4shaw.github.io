@@ -1,13 +1,27 @@
-
 h1 {
 	font-size: 25px;
-    font-weight: bold;
+  font-weight: bold;
 	color: #333;
+  text-align: center;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+h3 {
+	color: #333;
+  text-align: center;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+p {
+	font-size: 12px;
+	color: #333;
+  text-align:justify;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 .grid{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 2fr 3fr 2fr;
     grid-template-rows: auto auto auto;
     gap: 5px;   
     height: 90vh;
@@ -24,7 +38,7 @@ header, footer{
 }
 aside, article{
     border-style: solid;
-    font-size: 2em;
+    font-size: 12px;
     background: silver;
     padding: 20px;
 }
@@ -38,13 +52,12 @@ a:visited {
   }
 
 a:hover {
-    color: red;
-    font-size: 150%;
+    font-size: 125%;
   }
 
   /*IMAGE RESIZE */
 
-  img {
+img {
     max-width: 100%;
     max-height: 100%;
   }
@@ -80,54 +93,9 @@ a:hover {
     height: 100%;
 }
 
+  /*LIST */
 
-
-  /*NEW */
-
-.personal-info{
-    float: left;
-    margin-top: 30px;
-    width: 310px;
-    min-height: 230px;
-    margin-left: 10px;
-    background: url(GTMS2.jpg) no-repeat left top;
-    padding: 20px 0 19px 20px;
-}
-
-.personal-info li{
-    line-height: 12px;
-    font-size: 14px;
-    margin-bottom: 10px;
-    overflow: hidden;
-    float: left;
-    width: 293px;
-}
-
-.personal-info li label{
-    color: rgb(228, 32, 32);
-    float: left;
-    padding: 4px 7px;
-    font-weight: 550;
-    border-radius: 3px;
-    text-transform: uppercase;
-    font-family: 'Roboto Condensed', sans-serif;
-}
-
-.personal-info li span{
-    float: right;
-    width: 220px;
-    padding-top: 4px;
-    font-weight: 400;
-    color: rgb(71, 233, 133);
-    font-family: 'Roboto Condensed', sans-serif;
-    text-transform: uppercase;
-}
-
-.word-wrap {
-	word-wrap: break-word;
-	-ms-word-break: break-all;
-	word-break: break-all;
-	-webkit-hyphens: auto;
-	-moz-hyphens: auto;
-	hyphens: auto;
-}
+.personal-info {
+    color: #333;
+    font-family: 'Noto Sans JP', sans-serif;
+  }
