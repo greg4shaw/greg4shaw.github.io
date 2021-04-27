@@ -1,4 +1,4 @@
-<!-- Bootstrap template with navbar -->
+<!-- Gregory Shaw Porfolio - Project Page -->
 
 <!doctype html>
 <html lang="en">
@@ -6,105 +6,105 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
 
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&display=swap" rel="stylesheet">
     
+    <!-- Font Awesome -->
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
 
-    <!-- Bootstrap CSS   -->
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     
-    <!-- My CSS   -->  
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+    <!-- My CSS -->  
     <link rel="stylesheet" href="../css/styles.css" />
 
+    <title>Gregory Shaw</title>
 
-    <title>Projects</title>
   </head>
   <body>
 
-    <!-- NAVIGATION --> 
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #7fdbf7;">
+    <!-- Bootstrap Navigation --> 
+    <nav class="navbar navbar-dark bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24">Navbar</a>
+          <div class="navbar-brand">Gregory Shaw's Portfolio</div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="projects.html">Projects</a>
-                </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
+            <ul class="navbar-nav me-auto mb-auto mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
               </li>
-            </ul>
+              <li class="nav-item">
+                <a class="nav-link" href="projects.html">Projects</a>
+              </li>
+            <span class="navbar-text">
+              I'm working on getting a little more in here...
+            </span>
           </div>
         </div>
       </nav>
       
-      <a href="../index.html">Home</a>
-      <h1>Projects</h1>
+      <!-- GRID Creation -->
 
       <div class="grid">
         
-        <header class="top">Header</header>
+        <header class="top">Completed Projects</header>
         
-        <aside id="s2">
+        <aside id="s5">
             <div class="card-group">
                 <div class="card">
-                  <img src="..." class="card-img-top" alt="...">
+                  <img src="../css/PM.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
+                    <h5 class="card-title">PacMen Factory</h5>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   </div>
                   <div class="card-footer">
-                    <small class="text-muted">Last updated 3 mins ago</small>
+                    <small class="text-muted">
+                      <button class="button button1"><a href="https://greg4shaw.github.io/PacMen-Exercise/">Launch PacMen!</a></button>
+                      <button class="button button2"><a href="https://github.com/greg4shaw/PacMen-Exercise">GitHub Repo</a></button>
+                    </small>
                   </div>
                 </div>
         </aside>
         
-      <article id="s3">
+      <aside id="s6">
         <div class="card">
-            <img src="..." class="card-img-top" alt="...">
+            <img src="../css/bus2.JPG" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              <h5 class="card-title">Live Bus Tracking</h5>
+              <p class="card-text">A basic project to track the live movement of a bus operating in the Boston area. The bus will be tracked every 15 seconds and the position will be updated. This will be shown by the marker that is displayed on the map. Click the 'Start Tracking' button to get going.</p>
             </div>
             <div class="card-footer">
-              <small class="text-muted">Last updated 3 mins ago</small>
+              <small class="text-muted">                      
+                <button class="button button1"><a href="https://greg4shaw.github.io/Real-Time-Bus-Tracker/">Start Bus Tracking!</a></button>
+                <button class="button button2"><a href="https://github.com/greg4shaw/Real-Time-Bus-Tracker">GitHub Repo</a></button></small>
             </div>
           </div>
 
-      </article>
+      </aside>
         
-      <aside id="s4">
+      <aside id="s7">
         <div class="card">
-            <img src="..." class="card-img-top" alt="...">
+            <img src="../css/oneeye.png" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              <h5 class="card-title">Eye Movement</h5>
+              <p class="card-text">A basic project to track the movement of the mouse. When the mouse pointer is moved there are two eyes which both have black eye balls. These eye balls will track the movement of the mouse in unison.</p>
             </div>
             <div class="card-footer">
-              <small class="text-muted">Last updated 3 mins ago</small>
+              <small class="text-muted">                      
+                <button class="button button1"><a href="https://greg4shaw.github.io/Eye-Exercise/">Open Eyes!</a></button>
+                <button class="button button2"><a href="https://github.com/greg4shaw/Eye-Exercise">GitHub Repo</a></button></small>
             </div>
           </div>
         </div>  
       </aside>
         
-        <footer class="top">Footer</footer>
+        <!--<footer class="top">Footer</footer>-->
     </div>
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-
    </body>
 </html>

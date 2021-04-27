@@ -26,7 +26,7 @@ p {
 .grid{
     display: grid;
     grid-template-columns: 2fr 3fr 2fr;
-    grid-template-rows: auto auto auto;
+    grid-template-rows: 1fr 4fr 1fr;
     gap: 5px;   
     height: 90vh;
     padding: 5px;
@@ -38,14 +38,22 @@ header, footer{
     border-style: solid;
     padding: 5px;
     text-align: center;
-    font-size: 2em;
+    background-color: #14213d;
+    color: whitesmoke;
+    font-size: 25px;
+    font-family: 'Noto Sans JP', sans-serif;
 }
-aside, article{
+aside {
     border-style: solid;
     font-size: 12px;
     background: #aed4e6;
     padding: 20px;
     text-align: center;
+}
+
+a:link {
+  text-decoration: none;
+  color: #333;
 }
 
 a:hover {
@@ -56,14 +64,14 @@ a:visited {
     color: #14213d;
   }
 
-  /*IMAGE RESIZE */
+  /* IMAGE RESIZE */
 
 img {
     max-width: 100%;
     max-height: 100%;
   }
 
-  /*NAV BAR CHANGES */
+  /* NAV BAR CHANGES */
 
 
 .navbar-brand {
@@ -78,7 +86,7 @@ img {
   }
 
 
-  /*VIDEO STYLING */
+  /* VIDEO STYLING */
 
 .container {
     position: relative;
@@ -94,10 +102,47 @@ img {
     height: 100%;
 }
 
-  /*LIST */
+  /* LIST */
 
 .personal-info {
     color: #333;
     font-family: 'Noto Sans JP', sans-serif;
     text-align: center;
+  }
+
+  /* BUTTONS */
+
+  .button {
+    background-color: #14213d;
+    border: none;
+    padding: 12px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 20px;
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+  
+  .button1 {
+    background-color: whitesmoke; 
+    color: black; 
+    border: 1px solid #14213d;
+  }
+  
+  .button1:hover {
+    background-color: #bfc0c0;
+  }
+  
+  .button2 {
+    background-color: whitesmoke; 
+    color: black; 
+    border: 1px solid #14213d;
+  }
+  
+  .button2:hover {
+    background-color: #aed4e6;
   }
