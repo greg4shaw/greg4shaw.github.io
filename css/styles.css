@@ -1,3 +1,7 @@
+/* CSS Styling for Gregory Shaw Portfolio Project */
+
+/* GENERAL */
+
 body {
 	background-color: #535353;
 }
@@ -71,78 +75,75 @@ img {
     max-height: 100%;
   }
 
-  /* NAV BAR CHANGES */
-
+/* NAV BAR CHANGES */
 
 .navbar-brand {
     font-size: 20px;
-    /*font-family: Verdana, Geneva, Tahoma, sans-serif;*/
+    font-family: 'Noto Sans JP', sans-serif;
     font-weight: bold;
   }
-
 
 .nav-link {
     font-size: 20px;
   }
 
-
-  /* VIDEO STYLING */
+/* VIDEO STYLING */
 
 .container {
-    position: relative;
-    width: 100%;
-    height: 0;
-    padding-bottom: 56.25%;
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
 }
 .video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
-  /* LIST */
+/* LIST */
 
 .personal-info {
-    color: #333;
-    font-family: 'Noto Sans JP', sans-serif;
-    text-align: center;
+  color: #333;
+  font-family: 'Noto Sans JP', sans-serif;
+  text-align: center;
   }
 
-  /* BUTTONS */
+/* BUTTONS */
 
-  .button {
-    background-color: #14213d;
-    border: none;
-    padding: 12px 26px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 14px;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    border-radius: 20px;
-    font-family: 'Noto Sans JP', sans-serif;
-  }
+.button {
+  background-color: #14213d;
+  border: none;
+  padding: 12px 26px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 20px;
+  font-family: 'Noto Sans JP', sans-serif;
+}
   
-  .button1 {
-    background-color: whitesmoke; 
-    color: black; 
-    border: 1px solid #14213d;
-  }
-  
-  .button1:hover {
-    background-color: #bfc0c0;
-  }
-  
-  .button2 {
-    background-color: whitesmoke; 
-    color: black; 
-    border: 1px solid #14213d;
-  }
-  
-  .button2:hover {
-    background-color: #aed4e6;
-  }
+.button1 {
+  background-color: whitesmoke; 
+  color: black; 
+  border: 1px solid #14213d;
+}
+
+.button1:hover {
+  background-color: #bfc0c0;
+}
+
+.button2 {
+  background-color: whitesmoke; 
+  color: black; 
+  border: 1px solid #14213d;
+}
+
+.button2:hover {
+  background-color: #aed4e6;
+}
